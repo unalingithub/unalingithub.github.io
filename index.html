@@ -37,7 +37,8 @@
 	    <div class="resume-wrapper-inner mx-auto text-left bg-white shadow-lg">
 		    <header class="resume-header pt-4 pt-md-0">
 			    <div class="media flex-column flex-md-row">
-					<img class="mr-3 img-fluid picture mx-auto" src="assets/images/profile.png" alt="">
+					<img class="mr-3 img-fluid picture mx-auto" src="assets/images/profile.png" alt="" style="width: 100%; max-width: 200px; height: auto; border-radius: 0%;">
+					<!-- <img class="mr-3 img-fluid picture mx-auto" src="assets/images/profile.png" alt=""> -->
 				    <div class="media-body p-4 d-flex flex-column flex-md-row mx-auto mx-lg-0">
 					    <div class="primary-info">
 						    <h1 class="name mt-0 mb-1 text-white text-uppercase text-uppercase">Yuna Lin</h1>
@@ -63,10 +64,12 @@
 				    <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Summary</h2>
 				    <div class="resume-section-content">
 					    <p class="mb-0">
-							<li class="star">Currently serving as a Data Engineer at LangLive BI Team, specializing in SQL/NoSQL databases, data ETL, and data migration processes.
-                            <li class="star">Expert in implementing Google APIs (Data API, Search Console API, reCAPTCHA API) and user data collection for e-commerce platforms.
-                            <li class="star">Proficient in designing and optimizing user tag systems, synchronizing e-commerce data, and automating historical data storage on AWS S3 with Athena for efficient querying.
-				    </div>
+							<li class="star">Currently a Data Engineer at Microsoft (BeyondSoft contract), specializing in Spark cluster supervision and service development.
+							<li class="star">Previously worked as a Data Engineer at LangLive, with strong expertise in SQL/NoSQL databases, data ETL, and migration processes.
+							<li class="star">Skilled in implementing Google APIs (Data API, Search Console API, reCAPTCHA API) and automating data collection for e-commerce platforms.
+							<li class="star">Experienced in optimizing user tag systems, synchronizing e-commerce data, and automating historical data storage on AWS S3 with Athena for efficient querying.
+						</p>
+					</div>
 			    </section><!--//summary-section-->
 			    <div class="row">
 				    <div class="col-lg-9">
@@ -74,6 +77,37 @@
 						    <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Work Experience</h2>
 						    <div class="resume-section-content">
 							    <div class="resume-timeline position-relative">
+									<!-- New Azure Quota Management and Automation Experience -->
+									<article class="resume-timeline-item position-relative pb-5">
+										<div class="resume-timeline-item-header mb-2">
+											<div class="d-flex flex-column flex-md-row">
+												<h3 class="resume-position-title font-weight-bold mb-1">Data Engineer</h3>
+												<div class="resume-company-name ml-auto"> Microsoft (Beyondsoft)</div>
+											</div><!--//row-->
+											<div class="resume-position-time">Sep 2024 - Present</div>
+										</div><!--//resume-timeline-item-header-->
+										<div class="resume-timeline-item-desc">
+											<ul>
+												<li><b>[Engineering]</b> Contributed to job health detection and fault tolerance mechanisms, improving job monitoring in Spark environments.</li>
+												<li><b>[Automation]</b> Developed and automated the retrieval of Azure regional cluster quotas using Python scripts and KQL, streamlining resource management.</li>
+												<li><b>[Engineering]</b> Enhanced cluster monitoring by adding alerts for failed scaling events, utilizing Geneva and custom JavaScript conditions.</li>
+												<li><b>[Analysis]</b> Utilized IcM for tracking and resolving incidents, ensuring timely follow-ups and conducting root cause analysis.</li>
+											</ul>
+					
+											<h4 class="resume-timeline-item-desc-heading font-weight-bold">Technologies used:</h4>
+											<ul class="list-inline">
+												<li class="list-inline-item"><span class="badge badge-primary badge-pill">Python</span></li>
+												<li class="list-inline-item"><span class="badge badge-primary badge-pill">Azure CLI</span></li>
+												<li class="list-inline-item"><span class="badge badge-primary badge-pill">KQL</span></li>
+												<li class="list-inline-item"><span class="badge badge-primary badge-pill">Azure Resource Graph</span></li>
+												<li class="list-inline-item"><span class="badge badge-primary badge-pill">Geneva Monitoring</span></li>
+												<li class="list-inline-item"><span class="badge badge-primary badge-pill">JavaScript</span></li>
+												<li class="list-inline-item"><span class="badge badge-primary badge-pill">IcM</span></li>
+												<li class="list-inline-item"><span class="badge badge-primary badge-pill">Spark</span></li>
+											</ul>
+										</div><!--//resume-timeline-item-desc-->
+									</article><!--//resume-timeline-item-->
+
 									<article class="resume-timeline-item position-relative pb-5">
 
 									    <div class="resume-timeline-item-header mb-2">
@@ -81,43 +115,24 @@
 										        <h3 class="resume-position-title font-weight-bold mb-1">Data Engineer</h3>
 										        <div class="resume-company-name ml-auto">🌊 Langlive</div>
 										    </div><!--//row-->
-										    <div class="resume-position-time">April 2023 - Present</div>
+										    <div class="resume-position-time">Apr 2023 - Aug 2024</div>
 									    </div><!--//resume-timeline-item-header-->
 									    <div class="resume-timeline-item-desc">
-
-										    <!-- <ul>
-												<li><b>[Edge Device]</b> Developing tflite optimization tool. </li>
-											    <li><b>[Edge Device]</b> Optimization of StyleGAN2 for real-time usage on mobile devices without compromising its speed and performance.</li>
-												<li><b>[Edge Device]</b> Developing facial transformation feature on both mobile and computer versions.</li>
-												<li><b>[Edge Device]</b> Developing a cross-platform graphical user interface system for AI applications.</li>
-												<li><b>[Cloud]</b> Implementation of a color lottery OCR feature that achieves a recognition rate of 99% and has been used 130,000 times.</li>
-												<li><b>[Cloud]</b> Developing an internal AI data management platform that facilitates tasks such as labeling, recognition, and detection, thereby increasing labeling and evaluation efficiency by 500%.</li>
-												<li><b>[Cloud]</b> Training YOLOv8 for the detection of datangers objects.</li>
-												<li><b>[Cloud]</b> Implementing AI to Generate a Personal Avatar from a Single Image.</li>
-												<li><b>[Cloud]</b> Implementing AI to Create Speaking GIFs Based on Voice and Images.</li>
-												<li><b>[Cloud]</b> Two technical blogs:
-													<ul>
-														<li><a href="https://medium.com/@langlive_tech/ai怪物與牠們的產地-上-94d3393c9c0d"> AI Creatures and Their Origins (Part I)</a></li>
-														<li><a href="https://medium.com/@langlive_tech/ai怪物與牠們的產地-下-f0b6366c72a3">AI Creatures and Their Origins (Part II) </a></li>
-													</ul>
-												</li>
-												
-										    </ul> -->
 											<ul>
-												<li><b>[Engineering]</b>Expert in SQL/NoSQL databases like MySQL/MariaDB, PostgreSQL, MongoDB, and data ETL.</li>
-												<li><b>[Engineering]</b>Implemented Google Data API, Google Search Console API, and Google reCAPTCHA API for e-commerce platforms.</li>
-												<li><b>[Engineering]</b>Automated user data collection using the Ipinfo API for daily IP address parsing of new users.</li>
+												<li><b>[Engineering]</b>Expert in SQL/NoSQL databases (MySQL, MariaDB, PostgreSQL, MongoDB) and data ETL processes.</li>
+												<li><b>[API Integration]</b>Implemented Google Data API, Search Console API, and reCAPTCHA API for e-commerce platforms.</li>
+												<li><b>[Automation]</b>Automated user data collection using the Ipinfo API for daily parsing of new users' IP addresses.</li>
 												<li><b>[Engineering]</b>Set up monitoring dashboards and embedded logs in scheduled code for bug detection and maintenance.</li>
-												<li><b>[Engineering]</b>Created and optimized Grafana dashboards for e-commerce data visualization.</li>
+												<li><b>[Monitoring]</b>Created and optimized Grafana dashboards for e-commerce data visualization, and embedded logs in scheduled code for bug detection.</li>
 												<li><b>[Engineering]</b>Conducted SQL optimization, data presentation, and verification.</li>
 												<li><b>[Engineering]</b>Designed user tag systems using BitMask technology for efficient monthly user behavior analysis.</li>
-												<li><b>[Engineering]</b>Executed and tested data migration processes for adapting data structure changes.</li>
-												<li><b>[Engineering]</b>Automated historical data storage on AWS S3 and set up Athena for efficient data querying.</li>
+												<li><b>[Data Migration]</b>Executed data migration processes to adapt to structural changes in databases.</li>
+												<li><b>[Cloud Storage]</b>Automated historical data storage on AWS S3, optimizing query performance with Athena.</li>
 												<li><b>[Engineering]</b>Developed and maintained a data backend system using Python and Vue.</li>
-												<li><b>[Analysis]</b>E-commerce user profile analysis: Analyze the user profile of the e-commerce platform, especially the customer base of live streaming e-commerce.</li>
-												<li><b>[Analysis]</b>Anchor K-plot chart: Treat each anchor as a stock and establish the weekly K-line and monthly K-plot charts of the anchor.</li>
+												<li><b>[Analysis]</b>Conducted user profile analysis for e-commerce, focusing on the live streaming customer base.</li>
+												<li><b>[Analysis]</b>Developed K-plot charts to track anchor performance and analyzed data for detecting money laundering through voice broadcast.</li>
 												<li><b>[Analysis]</b>Voice broadcast money laundering monitoring: Use data analysis to find out the behavior of users using the voice broadcast function to launder money, and calculate the losses caused by the platform.</li>
-												<li><b>[Analysis]</b>Analyze the effectiveness of Valentine’s Day activities in the past two years.</li>
+												<li><b>[Analysis]</b>Assessed the effectiveness of Valentine's Day and Double Eleven campaigns.</li>
 												<li><b>[Analysis]</b>Analyze various indicators of Double Eleven activities and evaluate the effectiveness of the activities.</li>
 												<li><b>[Analysis]</b>Conference viewership analysis: Calculate the number of viewers (PCU) per hour for different speakers in online seminars to assess speaker popularity.</li>
 											</ul>
@@ -143,7 +158,7 @@
 
 									    <div class="resume-timeline-item-header mb-2">
 										    <div class="d-flex flex-column flex-md-row">
-										        <h3 class="resume-position-title font-weight-bold mb-1">Behavior Analyst</h3>
+										        <h3 class="resume-position-title font-weight-bold mb-1">Data Scientist</h3>
 										        <div class="resume-company-name ml-auto">EHSN</div>
 										    </div><!--//row-->
 										    <div class="resume-position-time">Feb 2021 ~ Feb</div>
@@ -159,6 +174,8 @@
 										    <h4 class="resume-timeline-item-desc-heading font-weight-bold">Technologies used:</h4>
 										    <ul class="list-inline">
 												<li class="list-inline-item"><span class="badge badge-primary badge-pill">Python</span></li>
+												<li class="list-inline-item"><span class="badge badge-primary badge-pill">XGBoost</span></li>
+												<li class="list-inline-item"><span class="badge badge-primary badge-pill">Jieba</span></li>
 											    <li class="list-inline-item"><span class="badge badge-primary badge-pill">Deep Learning</span></li>
 											    <li class="list-inline-item"><span class="badge badge-primary badge-pill">NLP</span></li>
 										    </ul>
@@ -256,16 +273,25 @@
 			    </div><!--//row-->
 		    </div><!--//resume-body-->
 		    
-		    
 	    </div>
-    </article>  
-
-    
+    </article>      
     <footer class="footer text-center pt-2 pb-5">
-	    <!--/* This template is free as long as you keep the footer attribution link. If you'd like to use the template without the attribution link, you can buy the commercial license via our website: themes.3rdwavemedia.com Thank you for your support. :) */-->
-        <small class="copyright">Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a> for developers</small>
+        <small class="copyright">Passionate about data <i class="fas fa-heart"></i> Driven by innovation</small>
     </footer>
 
+	<style>
+		@media (max-width: 768px) {
+			.resume-header .media img {
+				max-width: 150px; /* Adjust size for smaller screens */
+			}
+		}
+	
+		@media (max-width: 480px) {
+			.resume-header .media img {
+				max-width: 120px; /* Further adjust for very small screens */
+			}
+		}
+	</style>
     
 
 </body>
